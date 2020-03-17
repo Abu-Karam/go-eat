@@ -1,0 +1,23 @@
+#title {
+  padding-bottom: 1px;
+
+}
+
+.card   {
+  
+  
+       
+        margin-bottom: 30px;
+align-self: auto;
+}
+
+.card-img-top {
+  height: 322px;
+
+}
+
+.card-img-top img {
+  object-fit: contain;
+  
+}
+
