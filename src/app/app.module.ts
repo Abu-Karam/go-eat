@@ -7,6 +7,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { MenuComponent } from './menu/menu.component';
+import { GallaryComponent } from './gallary/gallary.component';
+import { FindUsComponent } from './find-us/find-us.component';
 
 // import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -18,6 +21,9 @@ import { HeaderComponent } from './header/header.component';
 
     FooterComponent,
     HeaderComponent,
+    MenuComponent,
+    GallaryComponent,
+    FindUsComponent,
     
   ],
   imports: [
