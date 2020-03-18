@@ -254,19 +254,15 @@ export class HeaderComponent implements OnInit {
                 &lt;span class&#x3D;&quot;sr-only&quot;&gt;(current)&lt;/span&gt;
               &lt;/a&gt;
         &lt;/li&gt;
+       
         &lt;li class&#x3D;&quot;nav-item&quot;&gt;
-          &lt;a class&#x3D;&quot;nav-link&quot; href&#x3D;&quot;#&quot;&gt;Meet Our Team&lt;/a&gt;
-        &lt;/li&gt;
-         
-
-        &lt;li class&#x3D;&quot;nav-item&quot;&gt;
-          &lt;a class&#x3D;&quot;nav-link&quot; href&#x3D;&quot;#&quot;&gt;Our Menu&lt;/a&gt;
+          &lt;a class&#x3D;&quot;nav-link&quot; href&#x3D;&quot;./menu&quot;&gt;Menu&lt;/a&gt;
         &lt;/li&gt;
          &lt;li class&#x3D;&quot;nav-item&quot;&gt;
-          &lt;a class&#x3D;&quot;nav-link&quot; href&#x3D;&quot;#&quot;&gt;Gallary &lt;/a&gt;
+          &lt;a class&#x3D;&quot;nav-link&quot; href&#x3D;&quot;./gallary&quot;&gt;Gallary &lt;/a&gt;
         &lt;/li&gt;
         &lt;li class&#x3D;&quot;nav-item&quot;&gt;
-          &lt;a class&#x3D;&quot;nav-link&quot; href&#x3D;&quot;#&quot;&gt;Find Us&lt;/a&gt;
+          &lt;a class&#x3D;&quot;nav-link&quot; href&#x3D;&quot;./find-us&quot;&gt;Find Us&lt;/a&gt;
         &lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
@@ -319,8 +315,8 @@ export class HeaderComponent implements OnInit {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><!-- Navigation --><div id="header"><nav class="navbar navbar-expand-lg  static-top" style="background-color: #e3f2fd;">  <div class="container-fluid">    <a class="navbar-brand" href="#">          <img src="../assets/Images/logo1.png" alt="" style="width:240px;">        </a>    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">          <span class="navbar-toggler-icon"></span>        </button>    <div class="collapse navbar-collapse" id="navbarResponsive">      <ul class="navbar-nav ml-auto">        <li class="nav-item active">          <a class="nav-link" href="#">Home                <span class="sr-only">(current)</span>              </a>        </li>        <li class="nav-item">          <a class="nav-link" href="#">Meet Our Team</a>        </li>                 <li class="nav-item">          <a class="nav-link" href="#">Our Menu</a>        </li>         <li class="nav-item">          <a class="nav-link" href="#">Gallary </a>        </li>        <li class="nav-item">          <a class="nav-link" href="#">Find Us</a>        </li>      </ul>    </div>  </div></nav></div></div>'
-    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'}];
+        var COMPONENT_TEMPLATE = '<div><!-- Navigation --><div id="header"><nav class="navbar navbar-expand-lg  static-top" style="background-color: #e3f2fd;">  <div class="container-fluid">    <a class="navbar-brand" href="#">          <img src="../assets/Images/logo1.png" alt="" style="width:240px;">        </a>    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">          <span class="navbar-toggler-icon"></span>        </button>    <div class="collapse navbar-collapse" id="navbarResponsive">      <ul class="navbar-nav ml-auto">        <li class="nav-item active">          <a class="nav-link" href="#">Home                <span class="sr-only">(current)</span>              </a>        </li>               <li class="nav-item">          <a class="nav-link" href="./menu">Menu</a>        </li>         <li class="nav-item">          <a class="nav-link" href="./gallary">Gallary </a>        </li>        <li class="nav-item">          <a class="nav-link" href="./find-us">Find Us</a>        </li>      </ul>    </div>  </div></nav></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'FindUsComponent', 'selector': 'app-find-us'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'GallaryComponent', 'selector': 'app-gallary'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'MenuComponent', 'selector': 'app-menu'}];
     var DIRECTIVES = [];
     var ACTUAL_COMPONENT = {'name': 'HeaderComponent'};
 </script>

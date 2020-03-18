@@ -35,7 +35,7 @@
 
 <ol class="breadcrumb">
   <li>Components</li>
-  <li>LandingPageComponent</li>
+  <li>GallaryComponent</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
@@ -61,7 +61,7 @@
     <h3>File</h3>
 </p>
 <p class="comment">
-    <code>src/app/landing-page/landing-page.component.ts</code>
+    <code>src/app/gallary/gallary.component.ts</code>
 </p>
 
 
@@ -91,19 +91,19 @@
 
             <tr>
                 <td class="col-md-3">selector</td>
-                <td class="col-md-9"><code>app-landing-page</code></td>
+                <td class="col-md-9"><code>app-gallary</code></td>
             </tr>
 
             <tr>
                 <td class="col-md-3">styleUrls</td>
-                <td class="col-md-9"><code>./landing-page.component.css</code></td>
+                <td class="col-md-9"><code>./gallary.component.css</code></td>
             </tr>
 
 
 
             <tr>
                 <td class="col-md-3">templateUrl</td>
-                <td class="col-md-9"><code>./landing-page.component.html</code></td>
+                <td class="col-md-9"><code>./gallary.component.html</code></td>
             </tr>
 
 
@@ -156,7 +156,7 @@
                 </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/landing-page/landing-page.component.ts:8</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/gallary/gallary.component.ts:8</a></div>
                             </td>
                         </tr>
 
@@ -196,7 +196,7 @@
             <tr>
                 <td class="col-md-4">
                     <div class="io-line">Defined in <a href="" data-line="12"
-                            class="link-to-prism">src/app/landing-page/landing-page.component.ts:12</a></div>
+                            class="link-to-prism">src/app/gallary/gallary.component.ts:12</a></div>
                 </td>
             </tr>
 
@@ -221,15 +221,15 @@
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
 
 @Component({
-  selector: &#x27;app-landing-page&#x27;,
-  templateUrl: &#x27;./landing-page.component.html&#x27;,
-  styleUrls: [&#x27;./landing-page.component.css&#x27;]
+  selector: &#x27;app-gallary&#x27;,
+  templateUrl: &#x27;./gallary.component.html&#x27;,
+  styleUrls: [&#x27;./gallary.component.css&#x27;]
 })
-export class LandingPageComponent implements OnInit {
+export class GallaryComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }
@@ -238,74 +238,16 @@ export class LandingPageComponent implements OnInit {
 
     <div class="tab-pane fade " id="c-templateData">
         <pre class="line-numbers"><code class="language-html">&lt;app-header&gt;&lt;/app-header&gt;
-
-&lt;!-- Page Content --&gt;
-&lt;div id&#x3D;&quot;title&quot; class&#x3D;&quot;container&quot; &gt;
-  &lt;h1 align&#x3D;&quot;center&quot;&gt;GO EAT&lt;/h1&gt;
-  &lt;hr /&gt;
-  &lt;H3 align&#x3D;&quot;center&quot;&gt;Mobile Food in the Town&lt;/H3&gt;
-  &lt;hr /&gt;
-&lt;/div&gt;
-
-  
-     
-        &lt;div class&#x3D;&quot;card&quot; &gt;
-          &lt;img
-            src&#x3D;&quot;../assets/Images/landing.jpg&quot;
-            class&#x3D;&quot;card-img-top&quot;
-            alt&#x3D;&quot;...&quot;
-          /&gt;
-
-          &lt;div class&#x3D;&quot;card-body&quot;&gt;
-            
-            &lt;p class&#x3D;&quot;card-text&quot;&gt;
-              With supporting text below as a natural lead-in to additional
-              content.
-            &lt;/p&gt;
-            &lt;button class&#x3D;&quot;btn btn-primary&quot; [routerLink]&#x3D;&quot;[&#x27;  &#x27;]&quot;&gt;
-              Find our truck
-            &lt;/button&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    
-    
-
-
-
-&lt;footer&gt;
-  &lt;app-footer&gt;&lt;/app-footer&gt;
-&lt;/footer&gt;
+&lt;p&gt;gallary works!&lt;/p&gt;
+&lt;app-footer&gt;&lt;/app-footer&gt;
 </code></pre>
     </div>
 
     <div class="tab-pane fade " id="c-styleData">
                 <p class="comment">
-                    <code>./landing-page.component.css</code>
+                    <code>./gallary.component.css</code>
                 </p>
-                <pre class="line-numbers"><code class="language-scss">#title {
-  padding-bottom: 1px;
-
-}
-
-.card   {
-  
-  
-       
-        margin-bottom: 30px;
-align-self: auto;
-}
-
-.card-img-top {
-  height: 322px;
-
-}
-
-.card-img-top img {
-  object-fit: contain;
-  
-}
-
-</code></pre>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
     </div>
 
     <div class="tab-pane fade " id="c-tree">
@@ -333,10 +275,10 @@ align-self: auto;
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><app-header></app-header><!-- Page Content --><div id="title" class="container" >  <h1 align="center">GO EAT</h1>  <hr />  <H3 align="center">Mobile Food in the Town</H3>  <hr /></div>               <div class="card" >          <img            src="../assets/Images/landing.jpg"            class="card-img-top"            alt="..."          />          <div class="card-body">                        <p class="card-text">              With supporting text below as a natural lead-in to additional              content.            </p>            <button class="btn btn-primary" [routerLink]="[\'  \']">              Find our truck            </button>          </div>        </div>        <footer>  <app-footer></app-footer></footer></div>'
+        var COMPONENT_TEMPLATE = '<div><app-header></app-header><p>gallary works!</p><app-footer></app-footer></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'FindUsComponent', 'selector': 'app-find-us'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'GallaryComponent', 'selector': 'app-gallary'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'MenuComponent', 'selector': 'app-menu'}];
     var DIRECTIVES = [];
-    var ACTUAL_COMPONENT = {'name': 'LandingPageComponent'};
+    var ACTUAL_COMPONENT = {'name': 'GallaryComponent'};
 </script>
 <script src="../js/tree.js"></script>
 
@@ -371,7 +313,7 @@ align-self: auto;
        <script>
             var COMPODOC_CURRENT_PAGE_DEPTH = 1;
             var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
-            var COMPODOC_CURRENT_PAGE_URL = 'LandingPageComponent.html';
+            var COMPODOC_CURRENT_PAGE_URL = 'GallaryComponent.html';
             var MAX_SEARCH_RESULTS = 15;
        </script>
 

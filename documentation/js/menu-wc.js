@@ -55,20 +55,28 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="modules/AppModule.html" data-type="entity-link">AppModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#components-links-module-AppModule-9daacd9aa4cebfebcaab495485bfa1d3"' : 'data-target="#xs-components-links-module-AppModule-9daacd9aa4cebfebcaab495485bfa1d3"' }>
+                                            'data-target="#components-links-module-AppModule-50df936ca1d7903036988c28c69319a6"' : 'data-target="#xs-components-links-module-AppModule-50df936ca1d7903036988c28c69319a6"' }>
                                             <span class="icon ion-md-cog"></span>
                                             <span>Components</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-9daacd9aa4cebfebcaab495485bfa1d3"' :
-                                            'id="xs-components-links-module-AppModule-9daacd9aa4cebfebcaab495485bfa1d3"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-AppModule-50df936ca1d7903036988c28c69319a6"' :
+                                            'id="xs-components-links-module-AppModule-50df936ca1d7903036988c28c69319a6"' }>
                                             <li class="link">
                                                 <a href="components/AppComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">AppComponent</a>
                                             </li>
                                             <li class="link">
+                                                <a href="components/FindUsComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">FindUsComponent</a>
+                                            </li>
+                                            <li class="link">
                                                 <a href="components/FooterComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">FooterComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/GallaryComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">GallaryComponent</a>
                                             </li>
                                             <li class="link">
                                                 <a href="components/HeaderComponent.html"
@@ -77,6 +85,10 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                             <li class="link">
                                                 <a href="components/LandingPageComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">LandingPageComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/MenuComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">MenuComponent</a>
                                             </li>
                                         </ul>
                                     </li>

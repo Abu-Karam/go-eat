@@ -73,16 +73,18 @@
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
 import { Routes, RouterModule } from &#x27;@angular/router&#x27;;
 import { LandingPageComponent } from &#x27;./landing-page/landing-page.component&#x27;;
-
-
+import { MenuComponent} from &#x27;./menu/menu.component&#x27;;
+import { GallaryComponent } from &#x27;./gallary/gallary.component&#x27;;
+import { FindUsComponent } from &#x27;./find-us/find-us.component&#x27;;
 
 const routes: Routes &#x3D; [
   { path: &#x27;&#x27;, component: LandingPageComponent },
-
-
-  { path: &#x27;gallery&#x27;, component: LandingPageComponent },
+  { path: &#x27;menu&#x27;, component: MenuComponent },
+  { path: &#x27;gallary&#x27;, component: GallaryComponent},
+  { path: &#x27;find-us&#x27;, component: FindUsComponent}
 
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
